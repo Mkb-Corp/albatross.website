@@ -710,9 +710,9 @@
 
                             <!-- Social Links -->
                             <ul class="footer-socials ico-25 text-center clearfix">
-                                <li><a href="#"><span class="flaticon-facebook"></span></a></li>
-                                <li><a href="#"><span class="flaticon-linkedin"></span></a></li>
-                                <li><a href="#"><span class="flaticon-instagram"></span></a></li>
+                                <li><a href="https://web.facebook.com/Albatrossfinance1"><span class="flaticon-facebook"></span></a></li>
+                                <li><a href="https://www.linkedin.com/company/albatross-finance-institut/"><span class="flaticon-linkedin-logo"></span></a></li>
+                                <li><a href="https://www.instagram.com/albatross_finance/"><span class="flaticon-instagram"></span></a></li>
                             </ul>
 
                         </div>
