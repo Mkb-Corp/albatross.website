@@ -212,10 +212,10 @@
                         <div class="txt-block left-column wow fadeInRight">
 
                             <!-- Section ID -->
-                            <span class="section-id">à propos</span>
+                            <span class="section-id"></span>
 
                             <!-- Title -->
-                            <h2 class="s-50 w-700">De nous</h2>
+                            <h2 class="s-50 w-700">A propos de nous</h2>
 
                             <!-- Text -->
                             <p class="p-lg">Albatross est une startup œuvrant sur les marchés
