@@ -13,9 +13,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="DSAThemes">
-    <meta name="description" content="Martex - Software, App, SaaS & Startup Landing Pages Pack">
+    <meta name="description" content="Albatross est une startup œuvrant sur les marchés
+                                des capitaux en général et les marchés financiers en particulier
+                                des différentes bourses des valeurs internationales.">
     <meta name="keywords"
-        content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+        content="Forex, Trading, Finance, Formation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SITE TITLE -->
