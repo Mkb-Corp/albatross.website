@@ -13,9 +13,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="DSAThemes">
-    <meta name="description" content="Martex - Software, App, SaaS & Startup Landing Pages Pack">
+    <meta name="description" content="Albatross est une startup œuvrant sur les marchés
+                                des capitaux en général et les marchés financiers en particulier
+                                des différentes bourses des valeurs internationales.">
     <meta name="keywords"
-        content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+        content="Forex, Trading, Finance, Formation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SITE TITLE -->
@@ -65,12 +67,16 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQYPH1YYHV"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-LQYPH1YYHV');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LQYPH1YYHV');
 </script>
+
 <body>
 
 
@@ -136,6 +142,8 @@
                                         Services</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#values" class="h-link">
                                         Valeurs</a></li>
+                                <li class="nl-simple" aria-haspopup="true"><a href="#faq" class="h-link">
+                                        FAQ</a></li>
 
                             </ul>
                         </nav> <!-- END MAIN MENU -->
@@ -669,7 +677,131 @@
         </div> <!-- END MODAL WINDOW (NEWSLETTER FORM) -->
 
 
+        <section id="faqs-3" class="pt-100 faqs-section">
+            <div class="container">
 
+
+                <!-- SECTION TITLE -->
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-9">
+                        <div class="section-title mb-70">
+
+                            <!-- Title -->
+                            <h2 class="s-50 w-700">FAQ</h2>
+
+                            <!-- Text -->
+                            <p class="s-21 color--grey">Nous répondons à quelques questions que vous vous posez</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- FAQs-3 QUESTIONS -->
+                <div class="faqs-3-questions" id="faq">
+                    <div class="row">
+
+
+                        <!-- QUESTIONS HOLDER -->
+                        <div class="col-lg-6">
+                            <div class="questions-holder">
+
+
+                                <!-- QUESTION #1 -->
+                                <div class="question mb-35 wow fadeInUp">
+
+                                    <!-- Question -->
+                                    <h5 class="s-22 w-700"><span>1.</span> Comment se déroulent vos formations ?</h5>
+
+                                    <!-- Answer -->
+                                    <p class="color--grey">Nos sessions de formations se déroulent en présentiel et en
+                                        ligne
+                                    </p>
+
+                                </div>
+
+
+                                <!-- QUESTION #2 -->
+                                <div class="question mb-35 wow fadeInUp">
+
+                                    <!-- Question -->
+                                    <h5 class="s-22 w-700"><span>2.</span> Est ce nécessaire de souscrire à un coaching
+                                        pour devenir un bon trader ?</h5>
+
+                                    <!-- Answer -->
+                                    <p class="color--grey">Un coaching est important parce qu'il permet à votre
+                                        encadreur de vous suivre correctement et d'ajuster la formation selon votre
+                                        capacité d'apprentissage
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div> <!-- END QUESTIONS HOLDER -->
+
+
+                        <!-- QUESTIONS WRAPPER -->
+                        <div class="col-lg-6">
+                            <div class="questions-holder">
+                                <!-- QUESTION #3 -->
+                                <div class="question mb-35 wow fadeInUp">
+
+                                    <!-- Question -->
+                                    <h5 class="s-22 w-700"><span>3.</span> Est-ce possible de vivre du trading ?</h5>
+
+                                    <!-- Answer -->
+                                    <ul class="simple-list color--grey">
+
+                                        <p class="color--grey">Oui il est possible de vivre du trading. Ne tombez juste
+                                            pas dans le piège de croire que le trading est la voie la plus facile vers
+                                            l'indépendance financière
+                                        </p>
+
+                                    </ul>
+
+                                </div>
+
+
+                                <!-- QUESTION #4 -->
+                                <div class="question mb-35 wow fadeInUp">
+
+                                    <!-- Question -->
+                                    <h5 class="s-22 w-700"><span>4.</span> Est-il possible de devenir trader sans
+                                        suivre une formation ?</h5>
+
+                                    <!-- Answer -->
+                                    <p class="color--grey">C'est possible, cependant ce n'est pas conseillé. Le trading
+                                        étant une discipline aux risques élevés, il est important de se faire
+                                        accompagner pour ne pas commettre les erreurs couramment observées.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+                        </div> <!-- END QUESTIONS HOLDER -->
+
+
+                    </div> <!-- End row -->
+                </div> <!-- END FAQs-3 QUESTIONS -->
+
+
+                {{-- <!-- MORE QUESTIONS LINK -->
+                <div class="row">
+                    <div class="col">
+                        <div class="more-questions mt-40">
+                            <div class="more-questions-txt bg--white-400 r-100">
+                                <p class="p-lg">Have any questions?
+                                    <a href="contacts.html" class="color--theme">Get in Touch</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+
+
+            </div> <!-- End container -->
+        </section> <!-- END FAQs-3 -->
 
         <!-- FOOTER-3
    ============================================= -->
@@ -684,7 +816,8 @@
                     <!-- FOOTER LOGO -->
                     <div class="col-xl-3">
                         <div class="footer-info">
-                            <img class="footer-logo" src="{{ asset('assets/images/logo-blue.png') }}" alt="footer-logo">
+                            <img class="footer-logo" src="{{ asset('assets/images/logo-blue.png') }}"
+                                alt="footer-logo">
                         </div>
                     </div>
 
@@ -718,9 +851,12 @@
 
                             <!-- Social Links -->
                             <ul class="footer-socials ico-25 text-center clearfix">
-                                <li><a href="https://web.facebook.com/Albatrossfinance1"><span class="flaticon-facebook"></span></a></li>
-                                <li><a href="https://www.linkedin.com/company/albatross-finance-institut/"><span class="flaticon-linkedin-logo"></span></a></li>
-                                <li><a href="https://www.instagram.com/albatross_finance/"><span class="flaticon-instagram"></span></a></li>
+                                <li><a href="https://web.facebook.com/Albatrossfinance1"><span
+                                            class="flaticon-facebook"></span></a></li>
+                                <li><a href="https://www.linkedin.com/company/albatross-finance-institut/"><span
+                                            class="flaticon-linkedin-logo"></span></a></li>
+                                <li><a href="https://www.instagram.com/albatross_finance/"><span
+                                            class="flaticon-instagram"></span></a></li>
                             </ul>
 
                         </div>
@@ -805,4 +941,5 @@
   </script>
   -->
 </body>
+
 </html>
