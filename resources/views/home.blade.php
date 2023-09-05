@@ -4,20 +4,16 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-
-
-
-
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="DSAThemes">
-    <meta name="description" content="Albatross est une startup œuvrant sur les marchés
+    <meta name="description"
+        content="Albatross est une startup œuvrant sur les marchés
                                 des capitaux en général et les marchés financiers en particulier
                                 des différentes bourses des valeurs internationales.">
-    <meta name="keywords"
-        content="Forex, Trading, Finance, Formation">
+    <meta name="keywords" content="Forex, Trading, Finance, Formation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SITE TITLE -->
@@ -78,29 +74,13 @@
 </script>
 
 <body>
-
-
-
-
-    <!-- PRELOADER SPINNER
-  ============================================= -->
-    <div id="loading" class="loading--theme">
-        <div id="loading-center"><span class="loader"></span></div>
-    </div>
-
-
-
-
     <!-- PAGE CONTENT
   ============================================= -->
     <div id="page" class="page font--jakarta">
 
-
-
-
         <!-- HEADER
    ============================================= -->
-        <header id="header" class="white-scroll">
+        <header id="header" class="white-menu navbar-dark light-hero-header white-scroll">
             <div class="header-wrapper">
 
 
@@ -119,7 +99,8 @@
 
                         <!-- HEADER BLACK LOGO -->
                         <div class="desktoplogo">
-                            <a href="#hero-14" class="logo-black"><img src="{{ asset('assets/images/logo-blue@1.5x.png') }}"
+                            <a href="#hero-14" class="logo-black"><img
+                                    src="{{ asset('assets/images/logo-blue@1.5x.png') }}"
                                     alt="logo albatross finance"></a>
                         </div>
 
@@ -127,7 +108,8 @@
                         <!-- HEADER WHITE LOGO -->
                         <div class="desktoplogo">
                             <a href="#hero-14" class="logo-white"><img
-                                    src="{{ asset('assets/images/logo-white@1.5x.png') }}" alt="logo albatross finance"></a>
+                                    src="{{ asset('assets/images/logo-white@1.5x.png') }}"
+                                    alt="logo albatross finance"></a>
                         </div>
 
 
@@ -156,57 +138,31 @@
             </div> <!-- End header-wrapper -->
         </header> <!-- END HEADER -->
 
+        <section id="hero-10" class="bg--scroll hero-section">
+            <div class="container p-30">
+                <div class="row d-flex align-items-center">
 
-
-
-        <!-- HERO-14
-   ============================================= -->
-        <section id="hero-14" class="bg--scroll hero-section">
-            <div class="container text-center">
-
-
-                <!-- HERO TEXT -->
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-9">
-                        <div class="hero-14-txt color--white wow fadeInUp">
+                    <!-- HERO TEXT -->
+                    <div class="col-12 text-center color--white p-3">
+                        <div class="hero-10-txt wow fadeInRight">
 
                             <!-- Title -->
-                            <h2 class="s-60 w-700">Démarrez une carrière dans le trading</h2>
+                            <h2 class="s-52 w-700">Démarrez une carrière dans le trading</h2>
 
                             <!-- Text -->
-                            <p class="s-21">Souscrivez à nos formations taillées sur mesure pour faire de vous un
-                                trader rentable
-                            </p>
+                            <h4 class="s-20 color--grey">Souscrivez à nos formations taillées sur mesure pour faire de
+                                vous un
+                                trader rentable</h4>
+
+                            <!-- Buttons -->
+                            <div class="btns-group">
+                            </div>
                         </div>
-                    </div>
-                </div> <!-- END HERO TEXT -->
-
-
-                <!-- HERO IMAGE -->
-                <div class="row">
-                    <div class="col">
-                        <div class="hero-14-img wow fadeInUp">
-                            <img class="img-fluid" src="{{ asset('assets/images/dashboard-02.png') }}"
-                                alt="hero-image">
-                        </div>
-                    </div>
-                </div> <!-- END HERO IMAGE -->
-
-
+                    </div> <!-- END HERO TEXT -->
+                </div> <!-- End row -->
             </div> <!-- End container -->
+        </section>
 
-
-            <!-- WAVE SHAPE BOTTOM -->
-            <div class="wave-shape-bottom">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 190">
-                    <path fill-opacity="1"
-                        d="M0,32L120,53.3C240,75,480,117,720,117.3C960,117,1200,75,1320,53.3L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                    </path>
-                </svg>
-            </div>
-
-
-        </section> <!-- END HERO-14 -->
 
         <!-- ABOUT UST
    ============================================= -->
