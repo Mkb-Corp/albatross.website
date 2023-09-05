@@ -100,7 +100,7 @@
 
         <!-- HEADER
    ============================================= -->
-        <header id="header" class="tra-menu navbar-light white-scroll">
+        <header id="header" class="white-scroll">
             <div class="header-wrapper">
 
 
@@ -113,13 +113,13 @@
 
 
                 <!-- NAVIGATION MENU -->
-                <div class="wsmainfull menu clearfix">
+                <div class="wsmainfull menu  clearfix">
                     <div class="wsmainwp clearfix">
 
 
                         <!-- HEADER BLACK LOGO -->
                         <div class="desktoplogo">
-                            <a href="#hero-14" class="logo-black"><img src="{{ asset('assets/images/logo-blue.png') }}"
+                            <a href="#hero-14" class="logo-black"><img src="{{ asset('assets/images/logo-blue@1.5x.png') }}"
                                     alt="logo albatross finance"></a>
                         </div>
 
@@ -127,12 +127,12 @@
                         <!-- HEADER WHITE LOGO -->
                         <div class="desktoplogo">
                             <a href="#hero-14" class="logo-white"><img
-                                    src="{{ asset('assets/images/logo-white.png') }}" alt="logo albatross finance"></a>
+                                    src="{{ asset('assets/images/logo-white@1.5x.png') }}" alt="logo albatross finance"></a>
                         </div>
 
 
                         <!-- MAIN MENU -->
-                        <nav class="wsmenu clearfix">
+                        <nav class="wsmenu  clearfix">
                             <ul class="wsmenu-list nav-theme">
 
                                 <!-- SIMPLE NAVIGATION LINK -->
