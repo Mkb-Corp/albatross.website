@@ -5,19 +5,16 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
 
-
-
-
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="DSAThemes">
-    <meta name="description" content="Albatross est une startup œuvrant sur les marchés
+    <meta name="description"
+        content="Albatross est une startup œuvrant sur les marchés
                                 des capitaux en général et les marchés financiers en particulier
                                 des différentes bourses des valeurs internationales.">
-    <meta name="keywords"
-        content="Forex, Trading, Finance, Formation">
+    <meta name="keywords" content="Forex, Trading, Finance, Formation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SITE TITLE -->
@@ -78,29 +75,13 @@
 </script>
 
 <body>
-
-
-
-
-    <!-- PRELOADER SPINNER
-  ============================================= -->
-    <div id="loading" class="loading--theme">
-        <div id="loading-center"><span class="loader"></span></div>
-    </div>
-
-
-
-
     <!-- PAGE CONTENT
   ============================================= -->
     <div id="page" class="page font--jakarta">
 
-
-
-
         <!-- HEADER
    ============================================= -->
-        <header id="header" class="tra-menu navbar-light white-scroll">
+        <header id="header" class="white-menu navbar-dark light-hero-header white-scroll">
             <div class="header-wrapper">
 
 
@@ -113,13 +94,14 @@
 
 
                 <!-- NAVIGATION MENU -->
-                <div class="wsmainfull menu clearfix">
+                <div class="wsmainfull menu  clearfix">
                     <div class="wsmainwp clearfix">
 
 
                         <!-- HEADER BLACK LOGO -->
                         <div class="desktoplogo">
-                            <a href="#hero-14" class="logo-black"><img src="{{ asset('assets/images/logo-blue.png') }}"
+                            <a href="#hero-14" class="logo-black"><img
+                                    src="{{ asset('assets/images/logo-blue@1.5x.png') }}"
                                     alt="logo albatross finance"></a>
                         </div>
 
@@ -127,21 +109,31 @@
                         <!-- HEADER WHITE LOGO -->
                         <div class="desktoplogo">
                             <a href="#hero-14" class="logo-white"><img
-                                    src="{{ asset('assets/images/logo-white.png') }}" alt="logo albatross finance"></a>
+                                    src="{{ asset('assets/images/logo-white@1.5x.png') }}"
+                                    alt="logo albatross finance"></a>
                         </div>
 
 
                         <!-- MAIN MENU -->
-                        <nav class="wsmenu clearfix">
+                        <nav class="wsmenu  clearfix">
                             <ul class="wsmenu-list nav-theme">
-
+                                <li aria-haspopup="true"><a href="#" class="h-link">A propos <span class="wsarrow"></span></a>
+	            					<ul class="sub-menu">
+	            						<li aria-haspopup="true"><a href="#about-us">A propos de nous</a></li>
+	            						<li aria-haspopup="true"><a href="#features-11">Services</a></li>
+	            						<li aria-haspopup="true"><a href="#values">Valeurs</a></li>
+	            						<li aria-haspopup="true"><a href="#team">Equipe</a></li>
+						           	</ul>
+								</li>
+                                <li aria-haspopup="true"><a href="#" class="h-link">Formations <span class="wsarrow"></span></a>
+	            					<ul class="sub-menu">
+	            						<li aria-haspopup="true"><a href="#about-us">En ligne</a></li>
+	            						<li aria-haspopup="true"><a href="#features-11">En presentiel</a></li>
+						           	</ul>
+								</li>
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="#about-us" class="h-link">A
-                                        Propos de nous</a></li>
-                                <li class="nl-simple" aria-haspopup="true"><a href="#features-11" class="h-link">
-                                        Services</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#values" class="h-link">
-                                        Valeurs</a></li>
+                                        Salle de Marchés</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#faq" class="h-link">
                                         FAQ</a></li>
 
@@ -156,58 +148,68 @@
             </div> <!-- End header-wrapper -->
         </header> <!-- END HEADER -->
 
+        <section id="hero-10" class="bg--scroll hero-section">
+            <div class="container p-30">
+                <div class="row d-flex align-items-center">
 
-
-
-        <!-- HERO-14
-   ============================================= -->
-        <section id="hero-14" class="bg--scroll hero-section">
-            <div class="container text-center">
-
-
-                <!-- HERO TEXT -->
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-9">
-                        <div class="hero-14-txt color--white wow fadeInUp">
+                    <!-- HERO TEXT -->
+                    <div class="col-12 text-center color--white p-3">
+                        <div class="hero-10-txt wow fadeInRight">
 
                             <!-- Title -->
-                            <h2 class="s-60 w-700">Démarrez une carrière dans le trading</h2>
+                            <h2 class="s-52 w-700">Démarrez une carrière dans le trading</h2>
 
                             <!-- Text -->
-                            <p class="s-21">Souscrivez à nos formations taillées sur mesure pour faire de vous un
-                                trader rentable
-                            </p>
+                            <h4 class="s-20 color--grey">Souscrivez à nos formations taillées sur mesure pour faire de
+                                vous un
+                                trader rentable</h4>
+
+                            <!-- Buttons -->
+                            <div class="btns-group">
+                            </div>
                         </div>
-                    </div>
-                </div> <!-- END HERO TEXT -->
-
-
-                <!-- HERO IMAGE -->
-                <div class="row">
-                    <div class="col">
-                        <div class="hero-14-img wow fadeInUp">
-                            <img class="img-fluid" src="{{ asset('assets/images/dashboard-02.png') }}"
-                                alt="hero-image">
-                        </div>
-                    </div>
-                </div> <!-- END HERO IMAGE -->
-
-
+                    </div> <!-- END HERO TEXT -->
+                </div> <!-- End row -->
             </div> <!-- End container -->
+        </section>
 
-
-            <!-- WAVE SHAPE BOTTOM -->
-            <div class="wave-shape-bottom">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 190">
-                    <path fill-opacity="1"
-                        d="M0,32L120,53.3C240,75,480,117,720,117.3C960,117,1200,75,1320,53.3L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                    </path>
-                </svg>
-            </div>
-
-
-        </section> <!-- END HERO-14 -->
-
+       <div class="container">
+         <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                    "symbols": [{
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "S&P 500"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "US 100"
+                        },
+                        {
+                            "proName": "FX_IDC:EURUSD",
+                            "title": "EUR to USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "Bitcoin"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "Ethereum"
+                        }
+                    ],
+                    "showSymbolLogo": true,
+                    "colorTheme": "light",
+                    "isTransparent": true,
+                    "displayMode": "adaptive",
+                    "locale": "en"
+                }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+       </div>
         <!-- ABOUT UST
    ============================================= -->
         <section id="about-us" class="bg--04 bg--fixed py-100 ct-01 content-section division">
@@ -650,10 +652,14 @@
                             <h5 class="s-24 w-700">Restez au courant de nos dernières informations</h5>
 
                             <!-- Form -->
-                            <form class="newsletter-form">
-
+                            <form class="newsletter-form" method="POST" action="{{ url('newsletter.subscribe') }}">
+                                @csrf
                                 <div class="input-group">
-                                    <input type="email" autocomplete="off" class="form-control"
+                                    <input type="text" name="name" autocomplete="off" class="form-control"
+                                        placeholder="Votre nom complet" required id="s-name">
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" autocomplete="off" class="form-control"
                                         placeholder="Votre addresse mail" required id="s-email">
                                     <span class="input-group-btn">
                                         <button type="submit" class="btn btn--theme hover--theme">Je souscris à la
