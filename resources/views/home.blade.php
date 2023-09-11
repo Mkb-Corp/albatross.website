@@ -4,6 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
+
 <head>
 
     <meta charset="utf-8">
@@ -118,7 +119,7 @@
                             <ul class="wsmenu-list nav-theme">
 
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="#about-us" class="h-link">A
+                                <li class="nl-simple dropdown" aria-haspopup="true"><a href="#about-us" class="h-link">A
                                         Propos de nous</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#features-11" class="h-link">
                                         Services</a></li>
@@ -163,7 +164,43 @@
             </div> <!-- End container -->
         </section>
 
-
+       <div class="container">
+         <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                    "symbols": [{
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "S&P 500"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "US 100"
+                        },
+                        {
+                            "proName": "FX_IDC:EURUSD",
+                            "title": "EUR to USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "Bitcoin"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "Ethereum"
+                        }
+                    ],
+                    "showSymbolLogo": true,
+                    "colorTheme": "light",
+                    "isTransparent": true,
+                    "displayMode": "adaptive",
+                    "locale": "en"
+                }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+       </div>
         <!-- ABOUT UST
    ============================================= -->
         <section id="about-us" class="bg--04 bg--fixed py-100 ct-01 content-section division">
@@ -606,10 +643,14 @@
                             <h5 class="s-24 w-700">Restez au courant de nos dernières informations</h5>
 
                             <!-- Form -->
-                            <form class="newsletter-form">
-
+                            <form class="newsletter-form" method="POST" action="{{ url('newsletter.subscribe') }}">
+                                @csrf
                                 <div class="input-group">
-                                    <input type="email" autocomplete="off" class="form-control"
+                                    <input type="text" name="name" autocomplete="off" class="form-control"
+                                        placeholder="Votre nom complet" required id="s-name">
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" autocomplete="off" class="form-control"
                                         placeholder="Votre addresse mail" required id="s-email">
                                     <span class="input-group-btn">
                                         <button type="submit" class="btn btn--theme hover--theme">Je souscris à la
