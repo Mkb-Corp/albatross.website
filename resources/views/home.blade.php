@@ -117,14 +117,23 @@
                         <!-- MAIN MENU -->
                         <nav class="wsmenu  clearfix">
                             <ul class="wsmenu-list nav-theme">
-
+                                <li aria-haspopup="true"><a href="#" class="h-link">A propos <span class="wsarrow"></span></a>
+	            					<ul class="sub-menu">
+	            						<li aria-haspopup="true"><a href="#about-us">A propos de nous</a></li>
+	            						<li aria-haspopup="true"><a href="#features-11">Services</a></li>
+	            						<li aria-haspopup="true"><a href="#values">Valeurs</a></li>
+	            						<li aria-haspopup="true"><a href="#team">Equipe</a></li>
+						           	</ul>
+								</li>
+                                <li aria-haspopup="true"><a href="#" class="h-link">Formations <span class="wsarrow"></span></a>
+	            					<ul class="sub-menu">
+	            						<li aria-haspopup="true"><a href="#about-us">En ligne</a></li>
+	            						<li aria-haspopup="true"><a href="#features-11">En presentiel</a></li>
+						           	</ul>
+								</li>
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple dropdown" aria-haspopup="true"><a href="#about-us" class="h-link">A
-                                        Propos de nous</a></li>
-                                <li class="nl-simple" aria-haspopup="true"><a href="#features-11" class="h-link">
-                                        Services</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#values" class="h-link">
-                                        Valeurs</a></li>
+                                        Salle de Marchés</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#faq" class="h-link">
                                         FAQ</a></li>
 
