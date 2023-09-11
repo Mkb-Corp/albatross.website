@@ -622,7 +622,90 @@
 
         <!-- MODAL WINDOW (NEWSLETTER FORM)
    ============================================= -->
-        <div id="modal-2" class="modal fade" tabindex="-1">
+       <!-- TEAM-1
+			============================================= -->
+			<section id="team" class="pt-100 team-section">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-md-10 col-lg-9">
+							<div class="section-title mb-80">
+
+								<!-- Title -->
+								<h2 class="s-50 w-700">Notre Equipe</h2>
+
+								<!-- Text -->
+								{{-- <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p> --}}
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- TEAM MEMBERS WRAPPER -->
+					<div class="team-members-wrapper">
+						<div class="row">
+							<div class="col">
+								<div class="team-member mb-50 wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo r-14">
+										<div class="hover-overlay">
+											<img class="img-fluid" src="{{ asset('assets/images/team-13.jpg') }}" alt="equipe-albatrossfinance">
+											<div class="item-overlay"></div>
+										</div>
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h6 class="s-20 w-700 color--black">Meschaack Ntumba</h6>
+										<p class="color--grey">CEO</p>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="team-member mb-50 wow fadeInUp">
+									<div class="team-member-photo r-14">
+										<div class="hover-overlay">
+											<img class="img-fluid" src="{{ asset('assets/images/team-13.jpg') }}" alt="equipe-albatrossfinance">
+											<div class="item-overlay"></div>
+										</div>
+									</div>
+									<div class="team-member-data">
+										<h6 class="s-20 w-700 color--black">Yves Ndondj</h6>
+										<p class="color--grey">Business Developer</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="team-member mb-50 wow fadeInUp">
+
+									<!-- Team Member Photo -->
+									<div class="team-member-photo r-14">
+										<div class="hover-overlay">
+											<img class="img-fluid" src="{{ asset('assets/images/team-13.jpg') }}" alt="equipe-albatrossfinance">
+											<div class="item-overlay"></div>
+										</div>
+									</div>
+
+									<!-- Team Member Data -->
+									<div class="team-member-data">
+										<h6 class="s-20 w-700 color--black">Getta</h6>
+										<p class="color--grey">Business Developer</p>
+									</div>
+
+								</div>
+							</div>
+						</div>   <!-- End row -->
+					</div>	<!-- TEAM MEMBERS WRAPPER -->
+
+				</div>	    <!-- End container -->
+			</section>	<!-- END TEAM-1 -->
+
+   <div id="modal-2" class="modal fade" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
 
