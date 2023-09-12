@@ -18,5 +18,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/trading-room', [HomeController::class, 'trading_room'])->name('trading_room');
+
 Route::post('/subscribe', [HomeController::class, 'subscribe_to_newsletter'])->name('newsletter.subscribe');
 

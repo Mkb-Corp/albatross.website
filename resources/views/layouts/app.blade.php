@@ -134,7 +134,7 @@
                                     </ul>
                                 </li>
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="#values" class="h-link">
+                                <li class="nl-simple" aria-haspopup="true"><a href="{{ route('trading_room') }}" class="h-link">
                                         Salle de Marchés</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="#faq" class="h-link">
                                         FAQ</a></li>
