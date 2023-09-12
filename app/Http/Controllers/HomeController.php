@@ -12,4 +12,8 @@ class HomeController extends Controller
     function subscribe_to_newsletter() : View {
         return view('home')->with('message', 'Souscription reussie');
     }
+
+    function trading_room() : View {
+        return view('trading-room');
+    }
 }
